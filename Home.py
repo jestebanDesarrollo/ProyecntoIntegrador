@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 # Set the page title and header
 st.title("Proyecto Integrador")
 st.header("Menu de restaurante")
+st.write("Se me olvido apagar la computadora, soy gordo")
 
 # Hero Section with image and project description
 st.image("img/Portada.png", width=600)

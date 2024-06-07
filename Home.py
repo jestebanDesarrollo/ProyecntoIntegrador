@@ -20,6 +20,10 @@ st.write("- Cada rol debe tener sus propias credenciales de inicio de sesión co
          "2. Contraseña.")
 st.write("- Las autorizaciones de perfil deben restringir el acceso a funciones específicas según el rol del usuario.\n")
 
+st.subheader("Módulo 2: Facturación (Caja) (Web)")
+st.write("-  Diseño intuitivo con esquema de colores negro y vino tinto.")
+st.write("-  Visualización de pedidos en estados.")
+
 # Features and Benefits
 st.subheader("Características y Beneficios")
 st.write("**Característica 1:** Descripción de la característica 1 y sus beneficios.")

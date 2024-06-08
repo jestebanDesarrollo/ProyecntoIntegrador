@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 # Set the page title and header
 st.title("Proyecto Integrador")
 st.header("Menu de restaurante")
-st.write("Se me olvido apagar la computadora, soy gordo")
 
 # Hero Section with image and project description
 st.image("img/Portada.png", width=600)
@@ -18,11 +17,20 @@ st.write("- Se debe permitir el registro de usuarios con roles específicos: Adm
 st.write("- Cada rol debe tener sus propias credenciales de inicio de sesión con: \n" 
          "1. Nombre.\n"
          "2. Contraseña.")
-st.write("- Las autorizaciones de perfil deben restringir el acceso a funciones específicas según el rol del usuario.\n")
+st.write("- Las autorizaciones de perfil deben restringir el acceso a funciones específicas según el rol del usuario.")
 
 st.subheader("Módulo 2: Facturación (Caja) (Web)")
 st.write("-  Diseño intuitivo con esquema de colores negro y vino tinto.")
-st.write("-  Visualización de pedidos en estados.")
+st.write("-  Visualización de pedidos en estados: "
+            "1.Facturados."
+            "2.Entregados pendientes de pago ")
+st.write("- Detalles del pedido." 
+        "1.	Mesa. " 
+        "2.Productos"
+        "3.Cantidad. "
+        "4.Meser@. "
+        "5.Descripción."
+        "6.Fecha-hora.")
 
 # Features and Benefits
 st.subheader("Características y Beneficios")

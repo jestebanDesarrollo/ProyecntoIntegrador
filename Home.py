@@ -21,7 +21,6 @@ st.write("- Las autorizaciones de perfil deben restringir el acceso a funciones 
 
 st.subheader("Módulo 2: Facturación (Caja) (Web)")
 st.write("-  Diseño intuitivo con esquema de colores negro y vino tinto.")
-<<<<<<< HEAD
 st.write("-  Visualización de pedidos en estados:")
 st.write("1. Facturados.")
 st.write("2. Entregados pendientes de pago ")
@@ -67,57 +66,22 @@ st.subheader("Características y Beneficios")
 st.write("**Pedidos 1:** La eficiencia a la hora de la comunicacion entre meseros y cocina que a la hora de tomar pedidos muchas veces los meseros a la hora de tomar el pedido tratan de memorizar muchos ya que varios les da dificultad de memorizar todo el pedido del cliente de esta manera llegara de una forma mas exacta la informacion al cheft para su preparacion.")
 st.write("**Facturacion 2:** Facturacion, de esta manera la forma de facturar y filtrar la mesa que mas clientes recibio en el dia el restaurante ademas de la busqueda y reimpresion de las facturas para l@s contador@s del restaurante.")
 st.write("**Inventario 3:** Al tener un descuento de la misma aplicacion de los productos que se van sirviendo, es se lleva una manera mas controlada y exacta los productos necesarios para el restaurante al igual que cuales son los productos que mas se tienen que surtir. ")
-=======
-st.write("-  Visualización de pedidos en estados: "
-            "1.Facturados."
-            "2.Entregados pendientes de pago ")
-st.write("- Detalles del pedido." 
-        "1.	Mesa. " 
-        "2.Productos"
-        "3.Cantidad. "
-        "4.Meser@. "
-        "5.Descripción."
-        "6.Fecha-hora.")
-
-# Features and Benefits
-st.subheader("Características y Beneficios")
-st.write("**Característica 1:** Descripción de la característica 1 y sus beneficios.")
-st.write("**Característica 2:** Descripción de la característica 2 y sus beneficios.")
-st.write("**Característica 3:** Descripción de la característica 3 y sus beneficios.")
->>>>>>> 71b03649009678d3c9851bb37149ce8537b4a1c4
 
 # Interactive Chart or Visualization (Optional)
 # Replace with your specific data and visualization
 data = [10, 20, 30, 40, 50]
-<<<<<<< HEAD
 labels = ["Especias", "Bebidas", "Frutas", "Verduras", "Carnes."]
-=======
-labels = ["Categoría A", "Categoría B", "Categoría C", "Categoría D", "Categoría E"]
->>>>>>> 71b03649009678d3c9851bb37149ce8537b4a1c4
 fig, ax = plt.subplots()
 ax.pie(data, labels=labels, autopct="%1.1f%%")
 st.pyplot(fig)
 
 # Call to Action
 st.subheader("¡Toma Acción!")
-<<<<<<< HEAD
 st.write("**Visite nuestro sitio web:** [Enlace al sitio web del proyecto](https://github.com/jestebanDesarrollo/FrontEndRestaurante)")
 st.write("**Contáctenos:** (https://www.linkedin.com/in/juan-esteban-muñoz-madrigal-84a7a829b/)")
-=======
-st.write("**Visite nuestro sitio web:** [Enlace al sitio web del proyecto](https://example.com)")
-st.write("**Contáctenos:** [Enlace al correo electrónico de contacto](mailto:info@example.com)")
->>>>>>> 71b03649009678d3c9851bb37149ce8537b4a1c4
 
 # Footer with team members and project information
 st.subheader("Equipo y Contacto")
 st.write("**Miembros del equipo:**")
-<<<<<<< HEAD
 st.write("- Juan Esteban Muñoz Madrigal: Lider.")
 st.write("- Juan Diego Morales Vásquez: Sub Lider.")
-=======
-st.write("- Nombre 1: Cargo en el equipo.")
-st.write("- Nombre 2: Cargo en el equipo.")
-st.write("- Nombre 3: Cargo en el equipo.")
-st.write("**Información de contacto:**")
-st.write("Correo electrónico: [Enlace al correo electrónico de contacto](mailto:info@example.com)")
->>>>>>> 71b03649009678d3c9851bb37149ce8537b4a1c4

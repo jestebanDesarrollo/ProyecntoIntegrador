@@ -86,7 +86,6 @@ def filtro2():
         conocimiento = resultado.loc[0,['CONOCIMIENTO','DESEMPEÑO','PRODUCTO']]
         st.subheader("Promedio")
         st.subheader(round(conocimiento.mean(),1)) 
-<<<<<<< HEAD
 
  # -----------------------------------------------------------------------------------
 def filtro3():
@@ -140,19 +139,13 @@ def filtro4():
 
     st.table(resultado1[["NOMBRE", "CONOCIMIENTO", "DESEMPEÑO", "PRODUCTO"]])
     st.table(resultado2[["NOMBRE", "CONOCIMIENTO", "DESEMPEÑO", "PRODUCTO"]])
-=======
->>>>>>> 71b03649009678d3c9851bb37149ce8537b4a1c4
   
 # -----------------------------------------------------------------------------------
 filtros =[
     "Notas por grupo",
-<<<<<<< HEAD
     "Notas por estudiante",
     "Notas por submodulo",
     "Comparacion de grupos"
-=======
-    "Notas por estudiante"
->>>>>>> 71b03649009678d3c9851bb37149ce8537b4a1c4
 ]
 
 filtro = st.selectbox("Filtros",filtros)
@@ -164,10 +157,7 @@ if filtro:
         filtro1()
     elif filtro_index == 1:
         filtro2()
-<<<<<<< HEAD
     elif filtro_index == 2:
         filtro3()
     elif filtro_index == 3:
         filtro4()
-=======
->>>>>>> 71b03649009678d3c9851bb37149ce8537b4a1c4
